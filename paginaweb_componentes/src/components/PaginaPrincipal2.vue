@@ -1,12 +1,10 @@
 <script setup>
-
+import encabezado from './encabezado.vue';
 </script>
 
 <template>
    <!-- Encabezado -->
-   <header class="container-fluid bg-dark d-flex justify-content-center">
-      <p class="text-light m-0 p-2 fs-5 text-white custom-font">BARISTAS</p>
-    </header>
+<encabezado/>
 <!-- Menu  -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 " id="menu">
     <div class="container-fluid">
@@ -228,9 +226,7 @@
 </template>
 
 <style scoped>
-.custom-font {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+
 
   .icon-button{
     padding: 10px 20px;
